@@ -12,8 +12,8 @@ class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var box = Hive.box('userBox');
-    // print(box.get('image'));
-    // print(box.get('name'));
+    print(box.get('image'));
+    print(box.get('name'));
     return Scaffold(
         appBar: AppBar(
           title: Text('Profile',style: getbodyStyle(AppColors.black),),

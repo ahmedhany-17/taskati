@@ -83,7 +83,7 @@ class _HomeViewState extends State<HomeView> {
                 child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => AddTask(),
+                        builder: (context) => const AddTask(),
                       ));
                     },
                     style: ElevatedButton.styleFrom(
@@ -123,7 +123,6 @@ class _HomeViewState extends State<HomeView> {
                     children: [
                       Expanded(
                         child: Column( 
-                          // mainAxisAlignment: MainAxisAlignment.start,
                                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
